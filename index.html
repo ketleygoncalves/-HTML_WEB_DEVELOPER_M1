@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página - Módulo I - Primeiros Passos com HTML</title>
+</head>
+<body>
+    <h1 id="inicio">Primeiros Passos com HTML</h1>
+    <hr />
+
+    <h2>Índice</h2>
+    <p><strong><u>Comece por aqui:</u> </strong></p>
+    <ul>
+        <li><a href="#historia">História dos computadores</a></li>
+        <li><a href="#clients">O que são <i>Clients</i>?</a></li>
+        <li><a href="#servers">O que são <i>Servers</i>?</a></li>
+        <li><a href="#estrutura-basica">Como é uma estrutura básica de um <abbr title="Hypertext Markup Language" >HTML?</abbr></a></li>
+        <li><a href="#listas">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
+        <li><a href="#referencias">Links de referências</a></li>
+    </ul>
+    <hr>
+
+    <h2 id="história">História dos computadores</h2> <small><a href="#inicio"> (Voltar) </a></small>
+    <p>A história dos computadores começou na década de 1940, com a <strong>1ª geração</strong> caracterizada por grandes máquinas 
+    eletrônicas, como o ENIAC, que utilizavam válvulas e eram voltadas para cálculos complexos. A transição para 
+    a <strong>2ª geração</strong>, nos anos 1950, introduziu transistores, tornando os computadores mais compactos e eficientes. 
+    A <strong>3ª geração</strong>, na década de 1960, viu o uso de circuitos integrados, enquanto a <strong>4ª geração</strong>, 
+    nos anos 1970, testemunhou o surgimento dos microprocessadores.</p>
+
+    <p>A evolução continuou com a <strong>5ª geração</strong> na década de 1980, destacada pela inteligência artificial e processadores 
+    mais avançados. O advento dos computadores pessoais marcou a <strong>6ª geração</strong> nos anos 1990. A <strong>7ª geração</strong>,
+    no início do século XXI, viu a proliferação de dispositivos móveis e a ascensão da computação em nuvem.<p>
+    
+    <p>Atualmente, entramos na era da <strong>8ª geração</strong>, com foco em tecnologias como <mark>inteligência artificial, 
+    aprendizado de máquina e computação quântica</mark>, moldando o cenário dos computadores para desafios e inovações 
+    futuras.</p>
+
+    <p><strong><a href="https://www.linknacional.com.br/blog/historia-do-computador/" target="_blank">Clique aqui<a></strong> e 
+    saiba mais sobre as <u>gerações e computadores</u> que marcaram suas decadas!
+
+    <p>Sugestões de leitura sobre o assunto:</p>
+    <ul>
+        <li><i>"História Ilustrada da Computação"</i> de David Brownstone, Irene M. Franck e Doug Garr.</li>
+        <li><i>"Máquinas que Pensam"</i> de Claudio Lucchesi.</li>
+        <li><i>"A História da Computação"</i> de Martin Campbell-Kelly e William Aspray.</li>
+    </ul>
+    <hr>    
+    <h2 id="clients">O que são <i>Clients</i>?</h2><small><a href="#inicio"> (Voltar) </a></small>
+  
+    <p>A comunicação entre <u>clientes e servidores é fundamental no panorama da programação,</u> desempenhando um papel essencial no funcionamento 
+    de sistemas distribuídos e aplicativos conectados à internet. Vamos explorar a diferença entre clientes e servidores para compreender como 
+    essa interação acontece.<p>
+    
+    <p><strong>Clientes:</strong> Clientes são entidades ou componentes de um sistema que solicitam serviços ou recursos de um servidor. Eles podem assumir 
+    várias formas, incluindo navegadores web, aplicativos móveis, ou até mesmo software de desktop. A principal função do cliente é enviar 
+    requisições ao servidor, solicitando informações, processamento ou outros serviços específicos.</p>
+    
+    <p>Em uma arquitetura cliente-servidor, o cliente é a parte do sistema que solicita serviços ou recursos de um servidor. <mark>O cliente é 
+    responsável por enviar requisições ao servidor e processar as respostas recebidas.</mark> Ele pode assumir várias formas, desde uma aplicação 
+    de desktop até um navegador web, aplicativo móvel ou qualquer outro software que interaja com um servidor.</p>
+        
+    <blockquote><i><p>Praticamente, um cliente é qualquer entidade que consome os serviços fornecidos por um servidor. Por exemplo, em uma aplicação web, 
+    o navegador atua como cliente, enviando solicitações HTTP a um servidor web para obter páginas ou dados específicos.
+    Clientes podem ser classificados em diferentes tipos, como <u>clientes pesados </u>(como aplicações de desktop ricas em recursos) e 
+    <u>clientes leves</u> (como navegadores web que dependem mais do lado do servidor para processamento). A <mark>interação entre clientes e servidores 
+    é fundamental para o funcionamento de muitos sistemas distribuídos</mark>, onde os clientes dependem dos servidores para fornecer dados, processamento 
+    ou outros serviços necessários para a execução adequada do aplicativo.</p></i></blockquote>
+    
+    <p>Em resumo, na programação, os <i>"clients"</i> são entidades que solicitam e consomem serviços ou recursos de um servidor, desempenhando 
+    um papel crucial na comunicação e interação em sistemas distribuídos.</p>
+    <hr>   
+
+    <h2 id="servers">O que são <i>Servers</i>?</h2><small><a href="#inicio"> (Voltar) </a></small>
+    <p>Os servidores, por outro lado, <mark>são componentes que respondem às requisições dos clientes, fornecendo os serviços solicitados.</mark> Eles são 
+    projetados para escutar e processar pedidos vindos dos clientes, entregando resultados ou dados pertinentes. Servidores podem variar em sua natureza, 
+    desde servidores web que hospedam páginas e aplicativos online até servidores de banco de dados que gerenciam e fornecem acesso a dados.</p>
+    <p>Os servidores desempenham um papel fundamental na arquitetura <i>cliente-servidor</i>, onde os clientes solicitam serviços e os servidores respondem a essas solicitações. 
+    Aqui estão alguns <mark>pontos-chave sobre servidores na programação:</mark>
+    <ol>
+        <li><strong>Fornecimento de Serviços:</strong> Servidores são projetados para oferecer serviços específicos, como hospedagem de sites, armazenamento de dados, 
+        processamento de solicitações de aplicativos, envio de emails, entre outros.</li>
+        <li><strong>Gerenciamento de Recursos:</strong> Eles gerenciam recursos, como armazenamento, potência de processamento, conexões de rede, para atender às 
+        necessidades dos clientes de maneira eficiente.</li>
+        <li><strong>Comunicação Cliente-Servidor:</strong> Os clientes enviam solicitações para os servidores, e os servidores respondem fornecendo os serviços ou recursos 
+        solicitados. Isso geralmente é feito usando protocolos de comunicação padrão, como HTTP para serviços web.</li>
+        <li><strong>Disponibilidade e Confiabilidade:</strong> Servidores são configurados para serem altamente disponíveis e confiáveis, minimizando tempos de inatividade e 
+        garantindo que os serviços estejam sempre acessíveis aos clientes.</li>
+        <li><strong>Segurança:</strong> A segurança é uma preocupação importante nos servidores, especialmente ao lidar com dados sensíveis. Eles implementam medidas de segurança, 
+        como criptografia e autenticação, para proteger informações e impedir acessos não autorizados.</li>
+        <li><strong>Tipos de Servidores:</strong> Existem diferentes tipos de servidores, como servidores web (que hospedam sites e aplicativos), servidores de banco de dados 
+        (que gerenciam dados), servidores de arquivos (que armazenam e compartilham arquivos), entre outros.</li>
+        <li><strong>Escalabilidade:</strong>Servidores são projetados para serem escaláveis, permitindo que eles lidem com um número crescente de solicitações e clientes conforme 
+        a demanda aumenta.</li>
+        <li><strong>Exemplos Comuns:</strong> Apache e Nginx são exemplos de servidores web; MySQL e PostgreSQL são servidores de banco de dados; e servidores de e-mail, como Microsoft Exchange ou Postfix, 
+        gerenciam comunicações de e-mail.</li>
+    </ol>
+    <p>Em resumo, servidores na programação são componentes essenciais que fornecem serviços, recursos e funcionalidades para clientes, facilitando a comunicação e interação eficientes em sistemas distribuídos.
+    <hr>    
+
+    <h2 id="estrutura-basica">Como é uma estrutura básica de um HTML?</h2> <small><a href="#inicio"> (Voltar) </a></small>
+    <p>Em primeiro lugar, o declarativo <code>< !DOCTYPE html ></code> estabelece a <u>versão do HTML em uso</u>, indicando que o documento 
+    segue os padrões da versão 5 da linguagem. <mark>Esse elemento é crucial para garantir a interpretação correta do código pelos navegadores.</mark></p>
+    
+    <p>O elemento <code>< html lang="pt-br" ></code> age como a cápsula que envolve todo o conteúdo da página. A inclusão do <u>atributo lang permite a especificação do idioma da página</u>, 
+    <mark>contribuindo para uma experiência mais acessível e compreensível, especialmente para motores de busca e leitores de tela.</mark>
+    
+    <p>No interior do <code>< html ></code>, o elemento <code>< head ></code> desempenha o papel de depositário para metadados e informações vitais. 
+    Aqui, <mark>o desenvolvedor pode incluir elementos como <code>< meta charset="UTF-8" ></code>, definindo a codificação de caracteres como UTF-8 para garantir a exibição adequada de uma ampla gama de caracteres, 
+    e <code>< meta name="viewport" content="width=device-width, initial-scale=1.0" ></code>, que configura o viewport, permitindo uma experiência responsiva em diversos dispositivos.</mark> O <code>< head ></code> também 
+    abriga o elemento <code>< title ></code>, cujo <u>conteúdo é exibido na aba do navegador ou na barra de título.</u> Este componente é crucial para identificar e distinguir páginas web em meio a várias abas, contribuindo 
+    para a usabilidade e organização.<p>
+    
+    <p>Por fim, o elemento <code>< body > </code> incorpora o <mark>cerne visível da página, abrigando parágrafos, títulos, imagens, links e outros elementos que compõem a experiência do usuário.</mark><u>
+    É neste espaço que a criatividade do desenvolvedor se manifesta</u>, estruturando o <strong>conteúdo de maneira lógica e esteticamente agradável.</strong></p>
+    
+    <p>Em síntese, <u>a estrutura básica de um documento HTML é a espinha dorsal da construção de páginas web</u>. Ao compreender 
+    e aplicar esses elementos, <mark>os desenvolvedores têm a capacidade não apenas de criar páginas funcionalmente sólidas, mas também de proporcionar uma experiência de usuário coesa e envolvente, 
+    marcando presença em um vasto e diversificado ecossistema digital.</mark></p>
+    <hr>   
+
+    <h2 id="listas">Entendendo a diferença entre listas ordenadas e não ordenadas</h2><small><a href="#inicio"> (Voltar) </a></small>
+    <p>As listas, desempenhando um papel essencial na organização e estruturação de conteúdo em documentos HTML, são uma ferramenta versátil para os desenvolvedores web. Duas formas comuns de listas 
+    são as ordenadas e não ordenadas, cada uma com características distintas, oferecendo uma abordagem única para apresentar informações.</p>
+        
+    <p>As <b>listas ordenadas </b><code>< ol ></code> são particularmente eficazes quando se busca atribuir uma <u>sequência lógica ou hierarquia aos elementos.</u> Cada item na lista é precedido por um número ou letra, 
+    indicando sua posição na ordem estabelecida. Este tipo de lista é valioso quando se deseja enfatizar a relação serial entre os elementos, como em instruções passo a passo, rankings, ou procedimentos numerados.<p>
+        
+    <p>Contrastando com as listas ordenadas, temos as <b>listas não ordenadas </b><code>< ul ></code>, que <u>destacam-se por sua ausência de uma ordem específica.</u> Cada item na lista é precedido por um marcador, geralmente 
+    um ponto ou um círculo. Essa ausência de uma ordem fixa torna as listas não ordenadas ideais para situações em que a hierarquia dos elementos não é uma consideração crucial. Elas são comumente utilizadas para apresentar 
+    itens em uma coleção, onde a ênfase recai sobre a igualdade ou a simples presença de cada elemento.</p>
+      
+    <p>Ambos os tipos de listas oferecem flexibilidade na apresentação de informações, permitindo que os desenvolvedores escolham o formato mais apropriado para o conteúdo específico. A decisão entre uma <i>lista ordenada e não ordenada</i> 
+    depende da natureza dos dados a serem exibidos e da ênfase que se deseja atribuir à sua organização.</p>
+    
+    <p>Em síntese, <mark>enquanto as listas ordenadas conferem uma ordem explícita aos elementos, as listas não ordenadas priorizam a igualdade, proporcionando uma estrutura que se adequa a diferentes contextos e objetivos.</mark> 
+    A escolha entre esses dois tipos de listas é uma consideração crucial na criação de páginas web bem estruturadas e intuitivas.</p>
+    <hr> 
+
+    <h2 id="referencias">Links de referências</h2> <small><a href="#inicio"> (Voltar) </a></small>
+    
+    <ul>
+        <li><a href="http://dio.me" target="_blank"> DIO </a></li>
+        <li><a href="http://w3c.org" target="_blank"> W3C </a></li>
+    </ul>
+
+</body>
+</html>
